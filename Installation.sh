@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 if [ $USERID -ne 0 ]; then
-    echo "run this with root user access"
+    echo "please run this with root user access"
     exit 1
 fi
 
