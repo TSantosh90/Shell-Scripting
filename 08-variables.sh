@@ -12,7 +12,11 @@ echo "total is : $SUM"
 
 FRUITS={"APPLE","BANANA","GUAVA"}
 
+echo "Fruits are : ${FRUITS[@]}"
 echo "Fruits are : ${FRUITS[0]}"
+echo "Fruits are : ${FRUITS[1]}"
+echo "Fruits are : ${FRUITS[2]}"
+
 
 
 
