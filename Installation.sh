@@ -5,3 +5,5 @@ if [ $USERID -ne 0 ]; then
     echo "run this with root user access"
 fi
 
+echo "installing Ngix"
+dnf install nginx -y
