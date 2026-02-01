@@ -10,12 +10,12 @@ echo "total is : $SUM"
 
 ##### ARRAY ######
 
-FRUITS={"APPLE","BANANA","GUAVA"}
+FRUITS=("APPLE" "BANANA" "GUAVA")
 
 echo "Fruits are : ${FRUITS[@]}"
-echo "Fruits are : ${FRUITS[0]}"
-echo "Fruits are : ${FRUITS[1]}"
-echo "Fruits are : ${FRUITS[2]}"
+echo "first fruit is : ${FRUITS[0]}"
+echo "Second fruit is : ${FRUITS[1]}"
+echo "Third fruit is : ${FRUITS[2]}"
 
 
 
