@@ -2,4 +2,4 @@
 
 TIMESTAMP=$(date)
 
-echo " Sript executed at :$TIMESTAMP"
+echo " Sript executed at : $TIMESTAMP"
