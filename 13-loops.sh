@@ -24,7 +24,7 @@ VALIDATE () { ##function
 for package in $@ # sudo 12-loops.sh nginx mysql nodejs  #loops concept
 do
   dnf list package installed -y &>>LOGS_FILE
-    if [$? -ne 0];then
+    if [ $? -ne 0 ];then
       echo "$package not installed.installing now"
       dnf install $package -y &>>$LOGS_FILE
       VALIDATE $? "$package installation"
