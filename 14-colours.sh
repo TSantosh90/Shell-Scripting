@@ -8,5 +8,5 @@ N="\e[0m"
 
 echo -e "$R hello world $N , $Y im learning linux $N"
 
-echo -e "$B let me know your doubts $N , I am able to answer $N"
+echo -e "$B let me know your doubts $N ,$Y I am able to answer $N"
 
